@@ -88,6 +88,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RUX-5D-hiW">
                                 <rect key="frame" x="172" y="350" width="30" height="30"/>
                                 <state key="normal" title="Add"/>
+                                <connections>
+                                    <action selector="addTapped:" destination="v3r-aQ-chy" eventType="touchUpInside" id="e2v-km-KSz"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -106,6 +109,10 @@
                             <constraint firstItem="RUX-5D-hiW" firstAttribute="top" secondItem="Oma-BV-PTS" secondAttribute="bottom" constant="52" id="qAN-2Q-EFf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="importantSwitch" destination="Oma-BV-PTS" id="jZE-CT-vaF"/>
+                        <outlet property="taskNameTextField" destination="3hq-e9-cya" id="n9L-pe-z3O"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ngn-Wg-0eL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
