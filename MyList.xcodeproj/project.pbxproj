@@ -13,7 +13,6 @@
 		65F2251D1E3420B600F3C44D /* MyList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65F2251B1E3420B600F3C44D /* MyList.xcdatamodeld */; };
 		65F2251F1E3420B600F3C44D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F2251E1E3420B600F3C44D /* Assets.xcassets */; };
 		65F225221E3420B600F3C44D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F225201E3420B600F3C44D /* LaunchScreen.storyboard */; };
-		65F2252A1E3430DD00F3C44D /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F225291E3430DD00F3C44D /* Task.swift */; };
 		65F28FCE1E35D932004D7216 /* CreateTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F28FCD1E35D932004D7216 /* CreateTaskVC.swift */; };
 		65F5B6651E36946000F0D85A /* CompleteTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5B6641E36946000F0D85A /* CompleteTaskVC.swift */; };
 /* End PBXBuildFile section */
@@ -27,7 +26,6 @@
 		65F2251E1E3420B600F3C44D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65F225211E3420B600F3C44D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65F225231E3420B600F3C44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65F225291E3430DD00F3C44D /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		65F28FCD1E35D932004D7216 /* CreateTaskVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskVC.swift; sourceTree = "<group>"; };
 		65F5B6641E36946000F0D85A /* CompleteTaskVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteTaskVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				65F225141E3420B600F3C44D /* AppDelegate.swift */,
-				65F225291E3430DD00F3C44D /* Task.swift */,
 				65F5B6641E36946000F0D85A /* CompleteTaskVC.swift */,
 				65F28FCD1E35D932004D7216 /* CreateTaskVC.swift */,
 				65F225161E3420B600F3C44D /* TasksVC.swift */,
@@ -149,7 +146,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65F2252A1E3430DD00F3C44D /* Task.swift in Sources */,
 				65F225171E3420B600F3C44D /* TasksVC.swift in Sources */,
 				65F5B6651E36946000F0D85A /* CompleteTaskVC.swift in Sources */,
 				65F2251D1E3420B600F3C44D /* MyList.xcdatamodeld in Sources */,
